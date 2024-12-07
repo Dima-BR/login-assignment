@@ -1,0 +1,145 @@
+body.purple-theme {
+  background: url('https://images.unsplash.com/photo-1712178435871-48d630f15969?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: "Rowdies", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.auth-page {
+  background: url('https://img.freepik.com/free-vector/realistic-style-technology-particle-background_23-2148426704.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #4b0082;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  background-color: rgb(255 105 241 / 43%);
+  border: 1px solid #4b0082;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Style buttons */
+.btn-primary {
+  background-color: #6a0dad;
+  border-color: #6a0dad;
+}
+
+.btn-primary:hover {
+  background-color: #5c0cac;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* Add spacing inside the card */
+.card p,
+.card h3,
+.card form {
+  margin: 10px 0;
+}
+
+/* Error messages */
+.text-danger {
+  font-size: 14px;
+}
+
+.bg-link-custom {
+  color: #fbeeff;
+}
+
+/* Sweetalert custom */
+.swal-title-purple {
+  color: #4b0082;
+  font-family: 'Poppins', sans-serif;
+}
+
+.swal-confirm-purple {
+  background-color: #6a0dad !important;
+  color: white !important;
+  border: none !important;
+}
+
+.swal-confirm-purple:hover {
+  background-color: #5c0cac !important;
+}
+
+
+/* Navbar styling */
+.navbar {
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btn-outline-light {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #6a0dad;
+}
+
+/* Hero banner styling */
+.hero-banner {
+  background: url('your-fullscreen-image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-content {
+  text-align: center;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background for better text visibility */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+}
